@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- pom模型版本，maven2和3只能为4.0.0-->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 项目的组ID，用于maven定位-->
+    <groupId>com.ethan.helloWorld</groupId>
+    <!-- 项目ID，通常是项目的名称,唯一标识符-->
+    <artifactId>helloWorld</artifactId>
+    <!-- 项目的版本-->
+    <version>1.0</version>
+    <!-- 项目的打包方式-->
+    <packaging>war</packaging>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+    </dependencies>
+</project>
