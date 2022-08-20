@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tomcat-test.iml" filepath="$PROJECT_DIR$/tomcat-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tomcat-hello-world.iml" filepath="$PROJECT_DIR$/.idea/tomcat-hello-world.iml" />
     </modules>
   </component>
 </project>
