@@ -16,13 +16,15 @@
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/test"/>
                 <property name="username" value="root"/>
-                <property name="password" value="123456"/>
+                <property name="password" value="12345678"/>
             </dataSource>
         </environment>
     </environments>
 
     <!-- 指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件 -->
     <mappers>
-        <mapper resource="PersonInfoMapper.xml" />
+        <mapper resource="com/helloWorld/mapper/PersonInfoMapper.xml" />
+<!--        <package name="com.helloWorld.mapper.GetUserByConditionMapper"/>-->
+        <mapper resource="com/helloWorld/mapper/GetUserByConditionMapper.xml"/>
     </mappers>
 </configuration>
